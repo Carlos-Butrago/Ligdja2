@@ -1,0 +1,297 @@
+﻿/* Posicionamente do rodapé */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+body {
+    margin-bottom: 0px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    height: 60px;
+    line-height: 60px;
+}
+
+/*padding menu*/
+
+.pad-menu{
+    margin: -10px auto;
+}
+
+/*imagem de fundo do footer*/
+.img-footer {
+    display: block;
+    /* background-image: url('/imagem/1345.jpg');*/
+    background-color: white;
+    height: 540px;
+    width: 1400px;
+    margin: 100px auto;
+}
+
+/*posicionamento do texto footer*/
+
+.text-footer {
+    float: left;
+    margin: -50px 130px;
+    line-height: 3px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+/*posicionamento mapa footer*/
+
+.map-footer {
+    float: right;
+    margin: -200px 150px;
+}
+
+/*posicionamento Copyrigth*/
+
+.cop {
+    margin: 0 auto;
+}
+
+.text-cop {
+    margin: 30px auto;
+}
+
+/*posicionamento da nav com menu*/
+
+
+form {
+    margin: auto 40px;
+}
+
+.bottom-b {
+    background-color: midnightblue;
+    color: lavenderblush;
+    margin: 5px 5px;
+    padding: 4px;
+    border: groove;
+    border-color: lightsteelblue;
+}
+
+/*posicionamento carrousel*/
+
+.carrousel {
+    margin: -50px auto;
+    position: initial;
+}
+
+
+/*posicionamento das 6 imagens no centro do site FLEX-BOX1*/
+
+.section-1 {
+    background-image: url('/../imagem/cozinha5.jpg');
+    background-attachment: fixed;
+    height: 950px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: -180px auto;
+    padding: 50px;
+}
+
+    .flex > div {
+        flex: 1 1 300px;
+        margin: 30px;
+    }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/*posicionamento foto ligdja-index*/
+
+.lig-ind {
+    margin: 50px 650px;
+    width: 1200px;
+}
+
+
+/*posicionamento imagem ao lado da qualidade*/
+
+.img-index2 {
+    height: 400px;
+    width: 600px;
+    margin: 0 60px;
+}
+
+/*padding primeira imagem com texto*/
+
+.pad-ind{
+    padding: 10px;
+}
+/*posicionamento da primeira imagem da página INDEX */
+
+.img-index {
+    position: center;
+    white-space: nowrap;
+    height: 530px;
+    line-height: 100px;
+    background-color: white;
+    /*background-image: url('/../imagem/cozinha5.jpg');*/
+    background-attachment: fixed;
+    margin: 150px auto;
+}
+
+.text-index {
+    float: right;
+    padding: 60px;
+    margin: -70px -80px;
+    /*background: linear-gradient(95deg, white 0%, trasparent, transparent);*/
+}
+
+
+/*posicionamento div gasE*/
+
+.gasE-div{
+    width: 1500px;
+    height: 1400px;
+    margin: -100px -75px;
+    padding: 120px;
+    background-image: url('/imagem/paris.jpg');
+    background-attachment: fixed;
+}
+
+/*posicionamento imagem gasE condomínio*/
+
+.img-gasE1 {
+    display: block;
+    margin: 50px auto;
+    background-image: url('/imagem/condominio2.jpg');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 850px;
+    width: auto;
+    height: 430px;
+}
+
+
+.text-cond {
+    background: linear-gradient(90deg, white 5%, white 7%, transparent);
+    text-align: left;
+    padding: 10px;
+    margin: -65px 0;
+    color: midnightblue;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+}
+
+.section-2 {
+    background-image: url('/imagem/condominio2.jpg');
+    background-attachment: fixed;
+    margin: -50px auto;
+    padding: 30px;
+    width: 1200px;
+}
+
+/*posicionamento background body gasR*/
+
+.back-body {
+    background-color: white;
+}
+
+/*posicionamento imagem gasE negócio*/
+
+.img-gasE2 {
+    display: block;
+    margin: 150px auto;
+    background-image: url('/imagem/empresa.jpg');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: auto;
+    height: 410px;
+}
+
+
+.text-neg {
+    display: ruby-text-container;
+    float: right;
+    text-align: justify;
+    text-orientation: use-glyph-orientation;
+    background: linear-gradient(80deg, transparent, black 35%, black 105%);
+    padding: 5px;
+    margin: -65px 0;
+    color: goldenrod;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+}
+
+
+/*posicionamento das 6 imagens no centro do site FLEX-BOX2 gas-residencial*/
+
+.section-gasR {
+    background-color: whitesmoke;
+    width: 1100px;
+}
+
+.flex-r {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0px auto;
+}
+
+    .flex-r > div {
+        flex: 1 1 200px;
+        margin: 30px;
+    }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*posicionamento texto do p45 gas residencial*/
+
+.text-gasp45 {
+    float: right;
+    margin: -620px 60px;
+    padding: 300px;
+    width: 1200px;
+}
+
+/*posiconamento foto gas 45*/
+
+.gas45 {
+    float: left;
+    margin: 0 -60px;
+    padding: 30px;
+}
+
+
+
+/*posicionamento foto autorizado x clandestino*/
+
+.img-aut {
+    height: 500px;
+    margin: -50px auto;
+}
+
+/*fundo texto da primeira imagem autorizado x clandestino*/
+.text-aut {
+    background: linear-gradient(90deg, white 10%, white 50%, transparent);
+    height: 500px;
+    margin: -62px -30px;
+    float: left;
+    padding: 80px;
+    width: 800px;
+}
+
+/*posicionamento card texto autorizado x clandestino*/
+
+.text-card {
+    margin: 50px auto;
+}

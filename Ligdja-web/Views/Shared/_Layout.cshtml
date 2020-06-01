@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <title>@ViewBag.Title</title>
+    <!--<link href="~/lib/site/main.css" rel="stylesheet" />-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" />
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/lib/Site/main.css" rel="stylesheet" />
+</head>
+
+
+
+<body class="">
+
+
+    <header>
+        <!--Esta nav é para logo da ligdja e ultragaz-->
+        <nav class="navbar" style="background-color:midnightblue">
+
+            <a class="navbar-brand font-weight-bold offset-1" style="color:mediumblue" asp-controller="Home" asp-action="Index">
+                <img class="rounded" src="~/imagem/logo.png" width="130" height="85" alt="" />
+            </a>
+
+
+            <div class="mx-5">
+                <img src="~/imagem/ultra-transp.png" width="300" height="75" alt="" />
+                <h6 class="offset-3" style="color:gold; font-family:Arial; font-size:11px">REVENDEDORA AUTORIZADA</h6>
+            </div>
+
+        </nav>
+
+
+        <!--Esta nav é para o menu-->
+        <nav class="pad-menu navbar navbar-expand-sm mb-5" style="background-color:midnightblue;">
+
+            <div class=" btn-group btn-group-toggle" data-toggle="collapse">
+
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                    </button>
+                </div>
+
+
+                <div class="collapse navbar-collapse" style="font-family: Arial, Helvetica, sans-serif">
+
+                    <ul class="navbar-nav flex-grow-1">
+
+                        <li class="navbar nav-item">
+                            <h5><a class="nav-link" style="color:white" asp-action="Index" asp-controller="Home">INÍCIO</a></h5>
+                        </li>
+
+                        <li class="mx-2"></li>
+
+
+                        <li class="navbar nav-item">
+
+                            <h5 class="dropdown-toggle" style="color: orangered" data-toggle="dropdown"><a href="#" style="color:white">SERVIÇOS</a></h5>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <h5><a class="dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Servico" asp-action="gasE">Gás empresarial</a></h5>
+                                    <div class="dropdown-divider"></div>
+                                    <h5><a class=" dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Servico" asp-action="gasR">Gás residencial</a></h5>
+                                    <div class="dropdown-divider"></div>
+                                    <h5><a class="dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Servico" asp-action="autorizado">Autorizado x Clandestino</a></h5>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li class="mx-2"></li>
+
+                        <li class="navbar nav-item">
+
+                            <h5 class="dropdown-toggle" style="color: orangered" data-toggle="dropdown"><a href="#" style="color:white">DICAS</a></h5>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <h5><a class="dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Dica" asp-action="DicaS">Dicas de Segurança</a></h5>
+                                    <div class="dropdown-divider"></div>
+                                    <h5><a class=" dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Dica" asp-action="Receita">Receitas</a></h5>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li class="mx-2"></li>
+
+                        <li class="navbar nav-item">
+                            <h5><a class="nav-link" style="color:white" asp-controller="Home" asp-action="Promocoes">POMOÇÕES</a></h5>
+                        </li>
+
+                        <li class="mx-2"></li>
+
+                        <li class="navbar nav-item">
+                            <h5><a class="nav-link" style="color:white" asp-controller="Home" asp-action="Sobre">SOBRE</a></h5>
+                        </li>
+
+
+                        <li class="mx-2"></li>
+
+                        <li class="navbar nav-item">
+                            <h5><a class="nav-link" style="color:white" asp-controller="Home" asp-action="Contato">CONTATO</a></h5>
+                        </li>
+
+                    </ul>
+
+
+                    <form class="form-inline" method="get" id="searchform">
+                        <input class="form-control " id="texto" size="25" type="search" placeholder="Busque no site" aria-label="Busque no site" list="pesquisa">
+                        <button class="bottom-b rounded" type="submit">Buscar</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!--Este cookie não tiro pois quebra o site.-->
+    <div class="">
+        <partial name="_CookieConsentPartial" />
+        <main>
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <!--footer da página-->
+    <div id="footer" data-bi-name="footer" role="contentinfo">
+        <footer class="navbar navbar-nav img-footer">
+            <div class=" offset-1 rounded-sm" style="background-color:white">
+                <img src="~/imagem/logo.png" width="250" height="250" alt="" />
+            </div>
+            <div class="text-footer">
+                <h3 class="font-weight-lighter text-center" style="color:goldenrod"> Cuiabá-MT </h3>
+                <h6 style="color:dodgerblue"> Rua B, Q 04, N 63 - COHAB Vila Real</h6>
+                <h6 style="color:dodgerblue"> Cuiabá - MT, 78048-715  </h6>
+                <h6 style="color:dodgerblue"> 65-2127-0404  </h6>
+                <h6 style="color:dodgerblue"> 65-9-9270-4727 </h6>
+                <h6 style="color:dodgerblue">  65-9-9671-5993 </h6>
+                <h6 style="color:dodgerblue"> email@ligjda.com.br </h6>
+            </div>
+            <div style="color:goldenrod">|</div>
+            <div class="map-footer embed-responsive-21by9">
+                <iframe class="rounded " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3843.489128290488!2d-56.09712815868941!3d-15.565494049895898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939db16c775c9b87%3A0xc894a319f090ac18!2sLig%20D&#39;j%C3%A1%20Ultragaz!5e0!3m2!1spt-BR!2sbr!4v1585376078120!5m2!1spt-BR!2sbr" width="500" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </footer>
+    </div>
+
+
+    <!--parte final do site onde tem o Copyrigth de original-->
+    <div class="navbar-toggler text-center cop" style="color:white; background-color: midnightblue">
+        <p class="text-cop">&copy; ₢ Copyrigth  LigD'já 2020</p>
+    </div>
+
+
+    <!--scripts utilizados no laytou-->
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <!--<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>-->
+    </environment>
+    <environment exclude="Development">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"></script>
+    </environment>
+
+    <!--<script src="~/js/site.js" asp-append-version="true"></script>-->
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/twitter-bootstrap/js/bootstrap.js"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+
+
+    @RenderSection("Scripts", required: false)
+
+
+
+</body>
+</html>
+

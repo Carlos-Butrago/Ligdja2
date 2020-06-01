@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "popper.js@1.16.1",
+      "destination": "wwwroot/popper.js/",
+      "files": [
+        "popper.min.js"
+      ]
+    },
+    {
+      "library": "swipe@2.0.0",
+      "destination": "wwwroot/lib/swipe/",
+      "files": [
+        "swipe.min.js"
+      ]
+    },
+    {
+      "library": "twitter-bootstrap@4.4.1",
+      "destination": "wwwroot/lib/twitter-bootstrap/",
+      "files": [
+        "js/bootstrap.js",
+        "css/bootstrap.css",
+        "css/Estilos.css"
+      ]
+    },
+    {
+      "library": "flexslider@2.7.2",
+      "destination": "wwwroot/lib/flexslider/"
+    },
+    {
+      "library": "magnific-popup.js@1.1.0",
+      "destination": "wwwroot/lib/magnific-popup.js/",
+      "files": [
+        "jquery.magnific-popup.js"
+      ]
+    },
+    {
+      "library": "stickyNavbar.js@1.3.5",
+      "destination": "wwwroot/lib/stickyNavbar.js/"
+    },
+    {
+      "library": "javascript.util@0.12.12",
+      "destination": "wwwroot/javascript.util/"
+    }
+    
+  ]
+}
