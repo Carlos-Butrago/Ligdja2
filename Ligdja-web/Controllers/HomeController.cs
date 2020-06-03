@@ -22,11 +22,6 @@ namespace Ligdja_web.Controllers
         }
 
 
-        public IActionResult dicas()
-        {
-            return View();
-        }
-
         public IActionResult promocoes()
         {
             return View();
