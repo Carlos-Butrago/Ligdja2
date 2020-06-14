@@ -1,0 +1,88 @@
+﻿
+/*posicionamento background body gasR*/
+
+.back-body {
+    background-color: white;
+}
+
+/*posicionamento primeira imagem e texto da página gasR*/
+
+.body-logo {
+    margin: -180px auto;
+}
+
+.img-logo {
+    margin: 100px 80px;
+}
+
+.text-logo {
+    float: right;
+    margin: 280px -50px;
+    padding: 10px;
+    width: 700px;
+    height: 200px;
+}
+
+.p13 {
+    height: 790px;
+}
+
+.p20 {
+    height: 790px;
+}
+/*posicionamento section da gasR*/
+
+.section-2 {
+    background-image: url('/imagem/fundo/igreja.jpg');
+    background-attachment: fixed;
+    margin: -50px auto;
+    padding: 50px;
+    width: 1200px;
+}
+
+/*posicionamento das 6 imagens no centro do site FLEX-BOX2 gas-residencial*/
+
+.section-gasR {
+    background-color: whitesmoke;
+    width: 1100px;
+}
+
+.flex-r {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0px auto;
+}
+
+    .flex-r > div {
+        flex: 1 1 200px;
+        margin: 30px;
+    }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*posicionamento texto das fotos de gas residencial*/
+
+.text-gas {
+    padding: 18px;
+    line-height: 22px;
+}
+
+.text-gasp45 {
+    float: right;
+    margin: 30px auto;
+    padding: 10px;
+    width: 700px;
+    height: 290px;
+}
+
+/*posiconamento foto gas 45*/
+
+.gas45 {
+    float: left;
+    margin: 0 -30px;
+    padding: 30px;
+}

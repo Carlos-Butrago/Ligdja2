@@ -1,0 +1,95 @@
+﻿
+/*posicionamento imagem + texto gasE*/
+
+.img-gasE3 {
+    position: center;
+    white-space: nowrap;
+    height: 530px;
+    line-height: 100px;
+    background-color: white;
+    /*background-image: url('/../imagem/cozinha5.jpg');*/
+    background-attachment: fixed;
+    margin: 30px auto;
+}
+
+.text-gasE3 {
+    float: right;
+    padding: 20px;
+    margin: 10px -60px;
+    font-size: 19px;
+    line-height: 20px;
+}
+
+.img-gasE3-1 {
+    height: 400px;
+    width: 600px;
+    margin: 0 60px;
+}
+
+
+/*posicionamento div gasE background das fotos condominio e empresa*/
+
+.gasE-div {
+    width: 1500px;
+    height: 1100px;
+    margin: -100px auto;
+    background-image: url('/imagem/fundo/paris.jpg');
+    background-attachment: fixed;
+}
+
+/*posicionamento imagem gasE condomínio*/
+
+.img-gasE1 {
+    height: 430px;
+    width: 630px;
+    margin: 60px -78px;
+}
+
+.cond {
+    background-color: lightgray;
+    opacity: 0.9;
+    width: 608px;
+    height: 430px;
+    margin: 60px 77px;
+}
+
+.text-cond {
+    text-align: left;
+    padding: 20px;
+    margin: 5px -3px;
+    color: darkgoldenrod;
+    font-family: 'Comic Sans MS';
+    font-size: 22px;
+    width: 630px;
+    height: 430px;
+    line-height: 40px;
+}
+
+
+/*posicionamento imagem gasE negócio*/
+
+.img-gasE2 {
+    height: 430px;
+    width: 610px;
+    margin: 60px 80px;
+}
+
+.neg {
+    background-color: lightgray;
+    opacity: 0.9;
+    width: 623px;
+    height: 430px;
+    margin: 60px -80px;
+}
+
+.text-neg {
+    text-align: left;
+    padding: 20px;
+    margin: 10px 15px;
+    color: darkgoldenrod;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+    width: 620px;
+    height: 430px;
+    line-height: 30px;
+}

@@ -1,0 +1,31 @@
+﻿
+/*posicionamento primeira imagem e vídeo Dicas de Segurança*/
+
+.img-dica {
+    position: center;
+    white-space: nowrap;
+    width: 1500px;
+    line-height: 100px;
+    background-attachment: fixed;
+    height: 400px;
+    margin: 50px auto;
+}
+
+.text-dica {
+    float: left;
+    padding: 100px;
+    margin: -65px 73px;
+    font-size: 30px;
+    line-height: 20px;
+    color: dodgerblue;
+    background: linear-gradient(90deg, white 10%, whitesmoke 70%, transparent);
+    height: 400px;
+}
+
+.vid-dica {
+    margin: auto 190px;
+}
+
+.card-dica {
+    margin: -100px auto;
+}

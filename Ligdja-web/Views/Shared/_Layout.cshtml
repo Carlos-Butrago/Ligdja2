@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" />
     <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
     <link href="~/lib/Site/main.css" rel="stylesheet" />
+    <link href="~/lib/Site/gasE.css" rel="stylesheet" />
+    <link href="~/lib/Site/gasR.css" rel="stylesheet" />
+    <link href="~/lib/Site/aut.css" rel="stylesheet" />
+    <link href="~/lib/Site/corpo-ind.css" rel="stylesheet" />
+    <link href="~/lib/Site/dicaS.css" rel="stylesheet" />
+    <link href="~/lib/Site/receitas.css" rel="stylesheet" />
 </head>
 
-
-
-<body class="">
-
-
+<body>
     <header>
         <!--Esta nav é para logo da ligdja e ultragaz-->
-       <!--<nav class="navbar" style="background-color:midnightblue">
+        <!--<nav class="navbar" style="background-color:midnightblue">
 
             <a class="navbar-brand font-weight-bold offset-1" style="color:mediumblue" asp-controller="Home" asp-action="Index">
                 <img class="rounded" src="~/imagem/ligdja-index.png" width="160" height="120" alt="" />
@@ -30,94 +32,125 @@
             </div>
 
         </nav>-->
-
-
         <!--Esta nav é para o menu-->
-        <nav class="pad-menu navbar navbar-expand-sm mb-5" style="background-color:midnightblue;">
+        <nav class="navbar navbar-expand-sm pad-menu" style="background-color:midnightblue;">
 
-            <div class=" btn-group btn-group-toggle" data-toggle="collapse">
+            <a class="img-lig" style="color:mediumblue" asp-controller="Home" asp-action="Index">
+                <img class="rounded" src="~/imagem/logo1.png" width="80" height="55" alt="" />
+            </a>
 
-                <div class="navbar-header">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-                    </button>
+            <div class="" style="color: white">/</div>
+
+            <div class="card-bor">
+                <div class="card card-ult">
+                    <img class="img-ult" src="~/imagem/ultragaz-logo-12.png" width="150" height="35" alt="" />
+                    <h6 class="pal-ult" style="color:gold; font-family:Arial; font-size:10px">REVENDEDORA AUTORIZADA</h6>
                 </div>
+            </div>
+
+            <div class="" style="color: white">/</div>
 
 
-                <div class="collapse navbar-collapse" style="font-family: Arial, Helvetica, sans-serif">
+            <!--<div class=" btn-group btn-group-toggle" data-toggle="collapse">
 
-                    <ul class="navbar-nav flex-grow-1">
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                </button>
+            </div>
+                Arial, Helvetica, sans-serif
+                    </div>-->
 
-                        <li class="navbar nav-item">
-                            <h5><a class="nav-link" style="color:white" asp-action="Index" asp-controller="Home">INÍCIO</a></h5>
-                        </li>
+            <div class="navbar-collapse pal-menu">
 
-                        <li class="mx-2"></li>
+                <ul class="navbar-nav flex-grow-1">
 
-
-                        <li class="navbar nav-item">
-
-                            <h5 class="dropdown-toggle" style="color: orangered" data-toggle="dropdown"><a href="#" style="color:white">SERVIÇOS</a></h5>
-
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <h5><a class="dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Servico" asp-action="gasE">Gás empresarial</a></h5>
-                                    <div class="dropdown-divider"></div>
-                                    <h5><a class=" dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Servico" asp-action="gasR">Gás residencial</a></h5>
-                                    <div class="dropdown-divider"></div>
-                                    <h5><a class="dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Servico" asp-action="autorizado">Autorizado x Clandestino</a></h5>
-                                </li>
-                            </ul>
-
-                        </li>
-
-                        <li class="mx-2"></li>
-
-                        <li class="navbar nav-item">
-
-                            <h5 class="dropdown-toggle" style="color: orangered" data-toggle="dropdown"><a href="#" style="color:white">DICAS</a></h5>
-
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <h5><a class="dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Dica" asp-action="DicaS">Dicas de Segurança</a></h5>
-                                    <div class="dropdown-divider"></div>
-                                    <h5><a class=" dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Dica" asp-action="Receita">Receitas</a></h5>
-                                </li>
-                            </ul>
-
-                        </li>
-
-                        <li class="mx-2"></li>
-
-                        <li class="navbar nav-item">
-                            <h5><a class="nav-link" style="color:white" asp-controller="Home" asp-action="Promocoes">POMOÇÕES</a></h5>
-                        </li>
-
-                        <li class="mx-2"></li>
-
-                        <li class="navbar nav-item">
-                            <h5><a class="nav-link" style="color:white" asp-controller="Home" asp-action="Sobre">SOBRE</a></h5>
-                        </li>
+                    <li class="navbar nav-item">
+                        <p><a class="nav-link" asp-action="Index" asp-controller="Home" style="color: white">INÍCIO</a></p>
+                    </li>
 
 
-                        <li class="mx-2"></li>
+                    <li class="navbar nav-item">
 
-                        <li class="navbar nav-item">
-                            <h5><a class="nav-link" style="color:white" asp-controller="Home" asp-action="Contato">CONTATO</a></h5>
-                        </li>
+                        <p class="dropdown-toggle" style="color: orangered" data-toggle="dropdown"><a href="#" style="color: white">SERVIÇOS</a></p>
 
-                    </ul>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <p><a class="dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Servico" asp-action="gasE">GÁS EMPRESARIAL</a></p>
+                                <div class="dropdown-divider"></div>
+                                <p><a class=" dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Servico" asp-action="gasR">GÁS RESIDENCIAL</a></p>
+                                <div class="dropdown-divider"></div>
+                                <p><a class="dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Servico" asp-action="autorizado">AUTORIZADO X CLANDESTINO</a></p>
+                            </li>
+                        </ul>
 
+                    </li>
 
-                    <form class="form-inline" method="get" id="searchform">
-                        <input class="form-control " id="texto" size="25" type="search" placeholder="Busque no site" aria-label="Busque no site" list="pesquisa">
-                        <button class="bottom-b rounded" type="submit">Buscar</button>
-                    </form>
+                    <li class="navbar nav-item">
 
-                </div>
+                        <p class="dropdown-toggle" style="color: orangered" data-toggle="dropdown"><a href="#" style="color: white">DICAS</a></p>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <p><a class="dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Dica" asp-action="DicaS">DICAS DE SEGURANÇA</a></p>
+                                <div class="dropdown-divider"></div>
+                                <p><a class=" dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Dica" asp-action="Receita">RECEITAS</a></p>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li class="navbar nav-item">
+                        <p><a class="nav-link" asp-controller="Home" asp-action="Promocoes" style="color: white">POMOÇÕES</a></p>
+                    </li>
+
+                    <li class="navbar nav-item">
+                        <p><a class="nav-link" asp-controller="Home" asp-action="Sobre" style="color: white">SOBRE</a></p>
+                    </li>
+
+                    <li class="navbar nav-item">
+                        <p><a class="nav-link" asp-controller="Home" asp-action="Contato" style="color: white">CONTATO</a></p>
+                    </li>
+
+                </ul>
+
+                <!--form-inline / form-control
+                id="texto" size="25" type="search" placeholder="Busque no site" aria-label="Busque no site" list="pesquisa"
+
+                                <form class="form-1" method="get" id="searchform">
+                                    <input class="input-1 input-focus">
+                                    <button class="bottom-b label-b" type="submit">&#10151;</button>
+                                </form>
+                                -->
+                <!--<div>
+                    <input class="busca" type="search" name="busca" placeholder="Buscar">
+                </div>-->
+
+                <img class="rounded" src="~/imagem/lupa.png" />
 
             </div>
         </nav>
     </header>
+
+    <div style="position: fixed; width: 50px; display: table; background: #999; top: 84px; padding: 1px; left: 0px;">
+        <a href="https://api.whatsapp.com/send?phone=556592704727&text=Ol%C3%A1,%20vi%20seu%20whats%20no%20site.%20Aviso:%20Devido%20a%20alta%20demanda,%20pedimos%20a%20compreens%C3%A3o%20em%20eventual%20espera%20no%20atendimento.%20Para%20maior%20agilidade,%20pe%C3%A7a%20pelo%20aplicativo%20Ultragaz%20Connect.">
+            <div class="social_menu">
+                <img class="rounded-lg mb-1" src="~/imagem/whats.jfif" width="50" height="50" alt="" />
+            </div>
+        </a>
+
+        <a class="mb-1" href="https://www.instagram.com/ligdja/?igshid=lgzl01fevtm2">
+            <div class="social_menu">
+                <img class="rounded-lg" src="~/imagem/instagram1.png" width="20" height="20" alt="" />
+            </div>
+        </a>
+
+        <a class="" href="https://www.facebook.com/ligdja/">
+            <div class="social_menu">
+                <img class="rounded-lg" src="~/imagem/facebook1.png" width="20" height="20" alt="" />
+            </div>
+        </a>
+    </div>
+
 
     <!--Este cookie não tiro pois quebra o site.-->
     <div class="">

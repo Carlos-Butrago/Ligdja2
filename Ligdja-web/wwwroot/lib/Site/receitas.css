@@ -1,0 +1,589 @@
+﻿/*posicioanmento da 1ª imagem filmes*/
+
+
+
+.text-fil {
+    text-align: center;
+    color: red;
+    background-color: black;
+    font-size: 35px;
+    margin: 30px auto;
+    width: 1350px;
+}
+
+.fil {
+    width: 1350px;
+    height: 350px;
+    margin: -30px auto;
+    background: no-repeat;
+    background-image: url('/imagem/receitas/dc-marv.jpg');
+}
+
+
+/*receitas pipoca leite ninho*/
+
+.img-rec-leite {
+    position: center;
+    white-space: nowrap;
+    height: 420px;
+    line-height: 100px;
+    background-color: white;
+    background-attachment: fixed;
+    margin: 30px 20px;
+    padding: 10px;
+}
+
+.text-rec-leite {
+    float: right;
+    padding: 20px;
+    margin: 20px -50px;
+    font-size: 19px;
+    line-height: 20px;
+    /*background: linear-gradient(15deg, transparent, #FFFDE7 10%, #FFF9C4 85%);*/
+    height: 420px;
+    width: 700px;
+}
+
+.img-rec-leite1 {
+    height: 420px;
+    width: 550px;
+    margin: 20px 60px;
+}
+
+
+.card-pip-leite {
+    width: 600px;
+    height: auto;
+    margin: auto 700px;
+    border: none;
+}
+
+.text-pip-leite {
+    margin: 20px 50px;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    color: #006064;
+    line-height: 50px;
+}
+
+
+/*receita pipoca caramelada com bacon*/
+
+.img-rec-bacon {
+    position: center;
+    white-space: nowrap;
+    height: 420px;
+    line-height: 100px;
+    background-color: white;
+    background-attachment: fixed;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.text-rec-bacon {
+    float: right;
+    padding: 20px;
+    margin: 20px -10px;
+    font-size: 19px;
+    line-height: 20px;
+    /*background: linear-gradient(100deg, transparent, #FFEBEE 10%, #FFCDD2 85%);*/
+    height: 420px;
+    width: 700px;
+}
+
+.img-rec-bacon1 {
+    height: 420px;
+    width: 550px;
+    margin: 20px 30px;
+}
+
+
+.card-pip-bacon {
+    width: 600px;
+    height: auto;
+    margin: auto 100px;
+    border: none;
+}
+
+.text-pip-bacon {
+    margin: 20px 50px;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    color: #006064;
+    line-height: 50px;
+}
+
+
+
+/*receita pipoca com palito de chocolate*/
+
+.img-rec-chocolate {
+    position: center;
+    white-space: nowrap;
+    height: 420px;
+    line-height: 100px;
+    background-color: white;
+    background-attachment: fixed;
+    margin: 30px 20px;
+    padding: 10px;
+}
+
+.text-rec-chocolate {
+    float: right;
+    padding: 20px;
+    margin: 20px -50px;
+    font-size: 19px;
+    line-height: 20px;
+    /*background: linear-gradient(15deg, transparent, #FFFDE7 10%, #FFF9C4 85%);*/
+    height: 420px;
+    width: 700px;
+}
+
+.img-rec-chocolate1 {
+    height: 420px;
+    width: 550px;
+    margin: 20px 60px;
+}
+
+
+.card-pip-chocolate {
+    width: 600px;
+    height: auto;
+    margin: auto 700px;
+    border: none;
+    /*background: -webkit-linear-gradient(top, transparent, #FFFDE7 10%, #FFF9C4 85%);*/
+}
+
+.text-pip-chocolate {
+    margin: 20px 50px;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    color: #006064;
+    line-height: 50px;
+}
+
+
+/*receita pipoca doce*/
+
+.img-rec-doce {
+    position: center;
+    white-space: nowrap;
+    height: 420px;
+    line-height: 100px;
+    background-color: white;
+    background-attachment: fixed;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.text-rec-doce {
+    float: right;
+    padding: 20px;
+    margin: 20px -10px;
+    font-size: 19px;
+    line-height: 20px;
+    /*background: linear-gradient(100deg, transparent, #FFEBEE 10%, #FFCDD2 85%);*/
+    height: 420px;
+    width: 700px;
+}
+
+.img-rec-doce1 {
+    height: 420px;
+    width: 550px;
+    margin: 20px 30px;
+}
+
+
+.card-pip-doce {
+    width: 600px;
+    height: auto;
+    margin: auto 100px;
+    border: none;
+    /* background: -webkit-linear-gradient(top, transparent, #FFEBEE 10%, #FFCDD2 85%);*/
+}
+
+.text-pip-doce {
+    margin: 20px 50px;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    color: #006064;
+    line-height: 50px;
+}
+
+
+/*posicioanmento da 2ª imagem almoço família*/
+
+
+.text-fam {
+    text-align: center;
+    color: white;
+    background-color: hotpink;
+    font-size: 35px;
+    margin: 100px auto;
+    width: 1350px;
+}
+
+.fam {
+    width: 1350px;
+    height: 450px;
+    margin: -100px auto;
+    background: no-repeat;
+    background-image: url('/imagem/receitas/familia.jpg');
+}
+
+
+
+/*receita feijoada*/
+
+.img-rec-feijoada {
+    position: center;
+    white-space: nowrap;
+    height: 420px;
+    line-height: 100px;
+    background-color: white;
+    background-attachment: fixed;
+    margin: 100px 20px;
+    padding: 10px;
+}
+
+.text-rec-feijoada {
+    float: right;
+    padding: 20px;
+    margin: 5px -50px;
+    font-size: 19px;
+    line-height: 20px;
+    height: 420px;
+    width: 700px;
+}
+
+.img-rec-feijoada1 {
+    height: 420px;
+    width: 550px;
+    margin: 60px 60px;
+}
+
+
+.card-feijoada {
+    width: 1350px;
+    height: 1200px;
+    margin: 500px 70px;
+    border: none;
+    background: transparent;
+}
+
+.title-feijoada {
+    margin: 10px 430px;
+    width: 500px;
+}
+
+.text-feijoada {
+    margin: -540px 680px;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    color: #006064;
+    line-height: 50px;
+    width: 500px;
+    height: 500px;
+}
+
+.text-feijoada2 {
+    width: 500px;
+    height: 500px;
+    margin: -350px 20px;
+    border: none;
+    font-family: 'Comic Sans MS';
+    color: #006064;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+
+/*receita estrogonofe*/
+
+.img-rec-estrogonofe {
+    position: center;
+    white-space: nowrap;
+    height: 1120px;
+    line-height: 100px;
+    background-color: white;
+    background-attachment: fixed;
+    margin: -650px auto;
+    padding: 10px;
+}
+
+.text-rec-estrogonofe {
+    float: right;
+    padding: 20px;
+    margin: 20px -10px;
+    font-size: 19px;
+    line-height: 20px;
+    height: 420px;
+    width: 700px;
+}
+
+.img-rec-estrogonofe1 {
+    height: 420px;
+    width: 550px;
+    margin: 20px 30px;
+}
+
+
+.card-pip-estrogonofe {
+    width: 800px;
+    height: auto;
+    margin: auto 100px;
+    border: none;
+}
+
+.text-pip-estrogonofe {
+    margin: 20px 50px;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    color: #006064;
+    line-height: 50px;
+}
+
+
+/*receita carne com brócolis*/
+
+.img-rec-carne {
+    position: center;
+    white-space: nowrap;
+    height: 420px;
+    line-height: 100px;
+    background-color: white;
+    background-attachment: fixed;
+    margin: 40px -5px;
+    padding: 10px;
+}
+
+.text-rec-carne {
+    float: right;
+    padding: 20px;
+    margin: 20px -250px;
+    font-size: 19px;
+    line-height: 20px;
+    height: 420px;
+    width: 700px;
+}
+
+.img-rec-carne1 {
+    height: 420px;
+    width: 550px;
+    margin: 40px 80px;
+}
+
+
+.card-carne {
+    width: 1350px;
+    height: 200px;
+    margin: 600px -500px;
+    border: none;
+    background: transparent;
+}
+
+.title-carne {
+    margin: 40px 300px;
+    width: 500px;
+}
+
+.text-carne {
+    margin: -540px 1000px;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    color: #006064;
+    line-height: 50px;
+    width: 800px;
+    height: 500px;
+}
+
+.text-carne1 {
+    width: 500px;
+    height: 500px;
+    margin: -350px 20px;
+    border: none;
+    font-family: 'Comic Sans MS';
+    color: #006064;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+
+/*posicioanmento da 3ª imagem piquinique*/
+
+.text-piq {
+    text-align: center;
+    color: white;
+    background-color: lawngreen;
+    font-size: 35px;
+    margin: 100px auto;
+    width: 1350px;
+}
+
+.piq {
+    width: 1350px;
+    height: 450px;
+    margin: -100px auto;
+    background: no-repeat;
+    background-image: url('/imagem/receitas/piquenique.jpg');
+}
+
+
+/*dicas piqueniques*/
+
+/*piqueniques crianças*/
+
+.card-pique-criancas {
+    padding: 20px;
+    margin: 20px 10px;
+    font-size: 19px;
+    line-height: 20px;
+    height: 1000px;
+    width: 800px;
+}
+
+
+.title-pique-criancas {
+    margin: 120px 150px;
+}
+
+.text-pique-criancas {
+    margin: -20px 120px;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    color: #006064;
+    line-height: 50px;
+    width: 500px;
+    height: 1000px;
+}
+
+/*piqueniques vegano*/
+
+.card-pique-vegano {
+    padding: 20px;
+    margin: -1050px 650px;
+    font-size: 19px;
+    line-height: 20px;
+    height: 1650px;
+    width: 800px;
+}
+
+
+.title-pique-vegano {
+    margin: 150px 150px;
+}
+
+.text-pique-vegano {
+    margin: -705px 120px;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    color: #006064;
+    line-height: 50px;
+    width: 500px;
+    height: 200px;
+}
+
+/*sem lactose*/
+
+.card-pique-lactose {
+    padding: 20px;
+    margin: -900px 10px;
+    font-size: 19px;
+    line-height: 20px;
+    height: 1000px;
+    width: 1000px;
+}
+
+
+.title-pique-lactose {
+    margin: 120px 150px;
+}
+
+.text-pique-lactose {
+    margin: -20px 120px;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    color: #006064;
+    line-height: 50px;
+    width: 500px;
+    height: 1000px;
+}
+
+/*para adultos*/
+
+.card-pique-adulto {
+    padding: 20px;
+    margin: -1035px 650px;
+    font-size: 19px;
+    line-height: 20px;
+    height: 1800px;
+    width: 1000px;
+}
+
+
+.title-pique-adulto {
+    margin: 150px 150px;
+}
+
+.text-pique-adulto {
+    margin: -780px 120px;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    color: #006064;
+    line-height: 50px;
+    width: 500px;
+    height: 200px;
+}
+
+/*romantico*/
+
+
+.card-pique-romantico {
+    padding: 20px;
+    margin: -1300px 10px;
+    font-size: 19px;
+    line-height: 20px;
+    height: 1000px;
+    width: 1000px;
+}
+
+
+.title-pique-romantico {
+    margin: 120px 150px;
+}
+
+.text-pique-romantico {
+    margin: -20px 120px;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    color: #006064;
+    line-height: 50px;
+    width: 500px;
+    height: 1000px;
+}
+
+/*aniversário*/
+
+.card-pique-aniversario {
+    padding: 20px;
+    margin: 260px 650px;
+    font-size: 19px;
+    line-height: 20px;
+    height: 300px;
+    width: 1000px;
+}
+
+
+.title-pique-aniversario {
+    margin: 150px 150px;
+}
+
+.text-pique-aniversario {
+    margin: -10px 120px;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    color: #006064;
+    line-height: 50px;
+    width: 500px;
+    height: 200px;
+}

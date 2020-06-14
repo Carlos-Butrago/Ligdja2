@@ -1,0 +1,74 @@
+﻿/*posicionamento carrousel*/
+
+.carrousel {
+    margin: auto auto;
+    position: initial;
+}
+
+
+/*posicionamento das 6 imagens no centro do site FLEX-BOX1*/
+
+.section-1 {
+    background-image: url('/../imagem/cozinha/cozinha5.jpg');
+    background-attachment: fixed;
+    height: 950px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: -180px auto;
+    padding: 50px;
+}
+
+    .flex > div {
+        flex: 1 1 300px;
+        margin: 30px;
+    }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/*posicionamento foto ligdja-index*/
+
+.lig-ind {
+    margin: 50px 650px;
+    width: 1200px;
+}
+
+/*posicionamento imagem ao lado da qualidade*/
+
+.img-index2 {
+    height: 400px;
+    width: 600px;
+    margin: 0 60px;
+}
+
+/*padding primeira imagem com texto*/
+
+.pad-ind {
+    padding: 10px;
+}
+/*posicionamento da primeira imagem da página INDEX */
+
+.img-index {
+    position: center;
+    white-space: nowrap;
+    height: 530px;
+    line-height: 100px;
+    background-color: white;
+    /*background-image: url('/../imagem/cozinha5.jpg');*/
+    background-attachment: fixed;
+    margin: 150px auto;
+}
+
+.text-index {
+    float: right;
+    padding: 60px;
+    margin: -70px -80px;
+    /*background: linear-gradient(95deg, white 0%, trasparent, transparent);*/
+}
